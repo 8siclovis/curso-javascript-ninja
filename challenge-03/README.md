@@ -198,9 +198,9 @@ correta, de acordo com os dados inseridos no objeto.
 ... if (pessoa.caminhouQuantosMetros === 1){
 ... mostrarMetro = ' metro';
 ... }
-... return 'Eu sou '+sexo+ ' ' +pessoa.nomecompleto()+ ', tenho '+pessoa.idade+' '+mostrarAno+' '+pessoa.altura+ ' ' +mostrarMetro+ ', meu peso é '+pessoa.peso+ 'kg e só hoje já caminhei '+pessoa.cominhouQuantosMetros+' '+mostrarMetro;
+... return 'Eu sou '+sexo+ ' ' +pessoa.nomecompleto()+ ', tenho '+pessoa.idade+' '+mostrarAno+' '+pessoa.altura+ ' ' +mostrarMetro+ ', meu peso é '+pessoa.peso+ 'kg e só hoje já caminhei '+pessoa.caminhouQuantosMetros+' '+mostrarMetro;
 ... }
 
 // Agora, apresente-se ;)
-pessoa.apresentacao(); //'Eu sou o João Silva, tenho 21 anos,  1.78 metros , meu peso é 78kg e só hoje já caminhei undefined metros '
+pessoa.apresentacao(); //'Eu sou o João Silva, tenho 21 anos,  1.78 metros , meu peso é 78kg e só hoje já caminhei 26 metros '
 ```

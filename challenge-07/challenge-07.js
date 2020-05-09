@@ -41,7 +41,7 @@ Mostre no console quantos itens tem o primeiro array criado, com a frase:
 "O primeiro array tem [QUANTIDADE DE ITENS] itens."
 */
 console.log("O primeiro array criado tem "+arr.length+ " itens");
-//O primeiro array criado tem 7 itens
+//O primeiro array criado tem 6 itens
 
 /*
 Agora mostre no console quantos itens tem o segundo array criado, com a frase:
